@@ -45,6 +45,54 @@ h1 {
     left: 32%;
 }
 
+.card:hover {
+    animation: bounce 0.5s linear;
+}
+
+.card-title {
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+}
+
+.card-subtitle {
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
+}
+
+.card-image {
+    height: 180px;
+    position: relative;
+    z-index: 2;
+}
+
+.go-up {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.go-up:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    animation: bounce 0.8s linear;
+}
+
 .steel {
     background-color: #f4f4f4;
 }
@@ -113,33 +161,6 @@ h1 {
 .ghost h2,
 .ghost p {
     color: #fff;
-}
-
-.card:hover {
-    animation: bounce 0.5s linear;
-}
-
-.card-title {
-    text-transform: capitalize;
-    margin-bottom: 0px;
-    font-size: 32px;
-    font-weight: normal;
-    position: relative;
-    z-index: 2;
-}
-
-.card-subtitle {
-    margin-top: 5px;
-    color: #666;
-    font-weight: lighter;
-    position: relative;
-    z-index: 2;
-}
-
-.card-image {
-    height: 180px;
-    position: relative;
-    z-index: 2;
 }
 
 @keyframes bounce {

@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <title>PokeDex</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
-</head>
-
-<link rel="shortcut icon" href="./img/char.png" />
-
-<button class="go-up">
-    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50px" height="50px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="114.207mm" height="135.459mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 896.22 1062.99"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
+   <![CDATA[
     .fil0 {fill:black}
     .fil1 {fill:#E6030A}
+   ]]>
   </style>
  </defs>
  <g id="Camada_x0020_1">
@@ -28,19 +20,4 @@ viewBox="0 0 896.22 1062.99"
    <path class="fil1" d="M293.48 470.07l89.02 0.25c23.26,-63.05 107.99,-62.69 130.99,0.01l88.85 -0.1c-8.19,-72.97 -74.22,-134.42 -154.34,-134.03 -80.92,0.39 -145.88,60.6 -154.51,133.88z"/>
   </g>
  </g>
-    </svg>
-</button>
-
-<script src="/index.js"></script>
-
-<body>
-
-    <div class="container">
-        <h1>Pokedex</h1>
-        <ul data-js="pokedex" class="pokedex"></ul>
-    </div>
-
-    <script src="./app.js"></script>
-</body>
-
-</html>
+</svg>
